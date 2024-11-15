@@ -1,5 +1,7 @@
 # Linux-Process-API-fork-wait-exec-
+
 Ex02-Linux Process API-fork(), wait(), exec()
+
 # Ex02-OS-Linux-Process API - fork(), wait(), exec()
 Operating systems Lab exercise
 # AIM:
@@ -49,12 +51,16 @@ gcc -o pidcheck.o pidcheck.c
 ./pidcheck.o
 
 ## OUTPUT
+
 ![image](https://github.com/user-attachments/assets/bdd4178d-2af0-4a9f-ae65-a2d2cfdd8bbe)
 
 ps
+
 ![image](https://github.com/user-attachments/assets/bc9104c6-d78f-4869-b5be-bdcaa03219c0)
 
 ## C Program to create new process using Linux API system calls fork() and exit()
+
+
 cat > forkcheck.c
 ```c++
 //C Program to create new process using Linux API system calls fork() and exit()
@@ -78,16 +84,13 @@ gcc -o forkcheck.o forkcheck.c
 ./forkcheck.o
 
 
-
 ## OUTPUT
+
 ![image](https://github.com/user-attachments/assets/adcbf7e3-870f-4538-b7d7-dfcfcf8c34ad)
 
 
-
 ## C Program to execute Linux system commands using Linux API system calls exec() family
-cat > execcheck2.c
-```c++
-
+```
 //C Program to execute Linux system commands using Linux API system calls exec() family
 #include <stdlib.h>
 #include <sys/wait.h>
@@ -114,12 +117,9 @@ int main()
 }
 ```
 
-gcc -o execcheck2.o execcheck2.c
-
-./execcheck2.o
 ## OUTPUT
 
 ![image](https://github.com/user-attachments/assets/9097f9a4-e107-4b82-bd98-6ee14d768f4a)
 
-# RESULT:
-The programs are executed successfully.
+# RESULT:The programs are executed successfully.
+
